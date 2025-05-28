@@ -1,0 +1,249 @@
+@import url("https://fonts.googleapis.com/css2?family=Tinos:ital,wght@0,400;0,700;1,400;1,700&display=swap");
+
+.tinos-regular {
+  font-family: "Tinos", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.tinos-bold {
+  font-family: "Tinos", serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.tinos-regular-italic {
+  font-family: "Tinos", serif;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.tinos-bold-italic {
+  font-family: "Tinos", serif;
+  font-weight: 700;
+  font-style: italic;
+}
+
+html,
+body {
+  height: 100%;
+  margin: 0;
+  font-family: "Tinos", serif;
+  background-color: #333;
+  color: #f2f2f2;
+}
+
+p {
+  margin-block-start: 0;
+  margin-block-end: 0;
+}
+
+header {
+  background: linear-gradient(
+      rgba(105, 105, 105, 0.65),
+      rgba(105, 105, 105, 0.65)
+    ),
+    url("../assets/S704_1.png");
+  padding: 20px;
+  text-align: center;
+  background-size: cover;
+  background-position: center;
+  color: white;
+}
+/* Sticky wrapper - the key element */
+.sticky-wrapper {
+  position: sticky;
+  top: 0;
+  z-index: 1000; /* High z-index to ensure it stays on top */
+  width: 100%;
+}
+
+/* Navbar styles */
+.navbar {
+  background-color: #222;
+  width: 100%;
+}
+
+.nav-links {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+.nav-links a {
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.nav-links a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.nav-links a.active {
+  background-color: #04aa6d;
+  color: white;
+}
+
+/* PSA styles */
+.psa {
+  margin-left: 25%;
+  margin-right: 25%;
+  width: 50%;
+  background-color: tomato;
+  text-align: center;
+  padding: 10px 0;
+  border-bottom-right-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+
+.psa a {
+  color: white;
+  text-decoration: none;
+  display: block;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.psa a:hover {
+  text-decoration: underline;
+}
+
+/* Logo adjustments */
+a.nav-logo,
+img.nav-logo {
+  height: 47.5px;
+  width: auto;
+  padding: 0;
+}
+
+/* Content spacing */
+.content {
+  padding-top: 20px;
+  /* Ensure content doesn't hide behind sticky header */
+}
+
+.about {
+  margin: 1%;
+  padding: 1%;
+  background-color: rgba(255, 255, 255, 0.1);
+  width: 60%;
+  height: 796px;
+  display: inline-block;
+}
+
+.gallery {
+  margin: 1%;
+  padding: 1%;
+  background-color: rgba(255, 255, 255, 0.1);
+  width: 32%;
+  height: auto;
+  display: inline-block;
+}
+
+.gallery img {
+  margin-top: 1%;
+  width: 100%;
+  height: auto;
+}
+
+.gallery img:hover {
+  transform: scale(1.05);
+  transition: transform 0.3s ease;
+}
+
+.flex {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  background-color: rgba(255, 255, 255, 0);
+}
+
+div.event-details {
+  font-size: small;
+  margin-left: 20px;
+  margin-top: 1%;
+  background-color: rgba(255, 255, 255, 0);
+}
+
+div.faq-item {
+  background-color: rgba(255, 255, 255, 0);
+  margin-top: 0;
+  width: 96%;
+  padding: 1%;
+  border: 1px solid rgba(255, 255, 255, 0.25);
+  border-radius: 5px;
+  margin-bottom: 1%;
+}
+
+div.faq-item h3 {
+  margin-block-start: 0;
+  text-decoration: underline;
+}
+
+.calendar {
+  margin: 1%;
+  padding: 1%;
+  background-color: rgba(255, 255, 255, 0.1);
+  width: 40%;
+  height: 700px;
+}
+
+.event {
+  margin: 1%;
+  padding: 1%;
+  background-color: rgba(255, 255, 255, 0.1);
+  width: 96%;
+  display: flex;
+}
+
+.event-image img {
+  margin-top: 1%;
+  width: 100px;
+  height: 100px;
+}
+
+.center {
+  text-align: center;
+}
+
+.faq {
+  margin: 1%;
+  padding: 1%;
+  background-color: rgba(255, 255, 255, 0.1);
+  width: 52%;
+  height: 700px;
+}
+
+footer {
+  width: 100%;
+  margin: 1%;
+}
+footer div {
+  background-color: rgba(255, 255, 255, 0.25);
+  float: left;
+  margin: 2px;
+  padding: 1%;
+  bottom: 0;
+  width: 22.25%;
+  height: 144px;
+}
+
+.city-hall-info {
+  height: auto;
+}
+.disclaimer {
+  width: 71.35%;
+  position: static;
+  bottom: 0;
+  right: 0;
+  height: auto;
+  background-color: tomato;
+  font-weight: bold;
+}
