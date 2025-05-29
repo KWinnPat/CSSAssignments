@@ -1,0 +1,101 @@
+@import url(https://db.onlinewebfonts.com/c/5b9f6ccea36b2b4a1e6d4ca926bbbc44?family=Clarendon+W01+Medium);
+
+@font-face {
+  font-family: "Clarendon W01 Medium";
+  src: url("https://db.onlinewebfonts.com/t/5b9f6ccea36b2b4a1e6d4ca926bbbc44.eot");
+  src: url("https://db.onlinewebfonts.com/t/5b9f6ccea36b2b4a1e6d4ca926bbbc44.eot?#iefix")
+      format("embedded-opentype"),
+    url("https://db.onlinewebfonts.com/t/5b9f6ccea36b2b4a1e6d4ca926bbbc44.woff2")
+      format("woff2"),
+    url("https://db.onlinewebfonts.com/t/5b9f6ccea36b2b4a1e6d4ca926bbbc44.woff")
+      format("woff"),
+    url("https://db.onlinewebfonts.com/t/5b9f6ccea36b2b4a1e6d4ca926bbbc44.ttf")
+      format("truetype"),
+    url("https://db.onlinewebfonts.com/t/5b9f6ccea36b2b4a1e6d4ca926bbbc44.svg#Clarendon W01 Medium")
+      format("svg");
+}
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Clarendon W01 Medium", sans-serif;
+  background-image: url(https://web-rep2.onrender.com/assets/background.png);
+  background-size: 100% auto;
+}
+
+.navbar {
+  width: 100%;
+  position: fixed;
+  top: 0;
+  z-index: 100;
+  background-color: rgba(22, 32, 55, 0.9);
+}
+
+.navbar > img {
+  width: 64px;
+  height: auto;
+  padding: 17px;
+  margin: auto;
+  display: block;
+  position: relative;
+}
+
+.hero {
+  width: 100%;
+  padding-top: 105px;
+}
+
+.hero video {
+  max-width: 100%;
+}
+
+.hero img {
+  display: block;
+  margin: auto;
+  z-index: 99;
+  width: 258px;
+  height: auto;
+  position: relative;
+  bottom: 550px;
+}
+
+.mission {
+  width: 100%;
+  text-align: center;
+  color: white;
+  background-image: url(https://web-rep2.onrender.com/assets/mission.png);
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+  position: relative;
+  bottom: 295px;
+  height: 612px;
+  display: flex;
+  flex-direction: column;
+  padding-top: 110px;
+  align-items: center;
+}
+
+.mission > h1 {
+  font-size: 50px;
+  font-family: "Clarendon W01";
+  text-transform: uppercase;
+}
+
+.mission > p {
+  font-family: "EB Garamond", serif;
+  font-size: 21px;
+  text-align: center;
+  margin: auto, 0;
+  line-height: 30px;
+}
+
+.mission > img {
+  width: 81px;
+  height: auto;
+  bottom: 10px;
+  position: relative;
+  padding-bottom: 20px;
+}
