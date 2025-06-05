@@ -1,0 +1,28 @@
+html,
+body {
+  background-image: url("https://assets.princess.com/is/image/princesscruises/regal-princess-monterey-california-princess-cruises?qlt=82&ts=1742319500167");
+  background-size: cover;
+  background-attachment: fixed;
+  min-height: 100vh;
+}
+
+h1 {
+  text-align: center;
+  font-size: 2.5em;
+}
+
+form {
+  position: relative;
+  z-index: 1;
+  width: 100%;
+  max-width: 600px;
+  margin: auto;
+  padding: 20px;
+  background-color: rgba(255, 255, 255, 0.8);
+  border-radius: 10px;
+}
+
+.overlay {
+  padding-top: 70px;
+  padding-bottom: 50px;
+}
